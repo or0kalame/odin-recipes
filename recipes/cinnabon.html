@@ -4,54 +4,112 @@
     <meta charset="UTF-8">
     <title>Cinnamon rolls</title>
     <link rel="stylesheet" href="../styles.css">
+
+    <style>
+        body {
+            background-color: #c45d3e;
+        }
+
+        .card {
+            background-color: #ee7c4b;
+        }
+        
+        .head-container {
+            background-color: #f5f0c4;
+            border-color: #c45d3e;
+            color: #a95034;
+        }
+
+        img {
+            height: 500px;
+            width: 600px;
+            border: 10px dotted #ffe4cf;
+        }
+
+        .recipe-head-container {
+            background-color: #f9b282;
+            border-color: #c45d3e;
+        }
+
+        .recipe-container {
+            background-color: #f5f0c4;
+            border-color: #c45d3e;
+        }
+
+        .tutorial {
+            border-color:beige;
+        }
+
+        .head-text, .head-text-2 {
+            color: #a95034;
+        }
+
+        ul, ol {
+            border-color: #e79a58;
+            color: #e79a58;
+            margin-top: 5px;
+        }
+
+    </style>
 </head>
+
+
 <body>
-    <h1 class="head-of-the-page bakery-recipe">Cinnabon at home</h1>
-    <img src="../images/cinnabon.webp" height="500" width="600">
+    <div class="card">
+        <div class="head-container head-text">Cinnabon at home</div>
+        <div style="text-align: center;"><img src="../images/cinnabon.webp" alt="cinnabon"></div>
 
-    <p><div class="title">Description</div></p>
-    <a href="https://www.allrecipes.com/recipe/20156/clone-of-a-cinnabon/" target="_blank" ref="noopener norefferer"><strong>Video tutorial</strong></a>
-    
-    <p><div class="title">Ingridients 🥙</div></p>
-    <div id="list-title">Dough:</div>
-    <ul>
-        <li>1 cup warm milk (110 degrees F/45 degrees C)</li>
-        <li>2 eggs, room temperature</li>
-        <li>⅓ cup margarine, melted</li>
-        <li>4 ½ cups bread flour</li>
-        <li>1 teaspoon salt</li>
-        <li>½ cup white sugar</li>
-        <li>2 ½ teaspoons bread machine yeast</li>
-    </ul>
+        <div class="recipe-head-container">
+            <div class="head-text">Desription</div>
+            <a href="https://www.allrecipes.com/recipe/20156/clone-of-a-cinnabon/" target="_blank" ref="noopener norefferer"><div class="tutorial">Video tutorial</div></a>
+        </div>
 
-    <p><div id="list-title">Filling:</div></p>
-    <ul>
-        <li>1 cup brown sugar, packed</li>
-        <li>2 ½ tablespoons ground cinnamon</li>
-        <li>⅓ cup butter, softened</li>
-    </ul>
+        <div class="recipe-container">
+            <div class="head-text">Ingridients 🥙:</div>
 
-    <p><div id="list-title">Icing:</div></p>
-    <ul>
-        <li>1 ½ cups confectioners' sugar</li>
-        <li>¼ cup butter, softened</li>
-        <li>1 (3 ounce) package cream cheese, softened</li>
-        <li>½ teaspoon vanilla extract</li>
-        <li>⅛ teaspoon salt</li>
-    </ul>
+            <div class="head-text-2">Dough:</div>
+            <ul>
+                <li>1 cup warm milk (110 degrees F/45 degrees C)</li>
+                <li>2 eggs, room temperature</li>
+                <li>⅓ cup margarine, melted</li>
+                <li>4 ½ cups bread flour</li>
+                <li>1 teaspoon salt</li>
+                <li>½ cup white sugar</li>
+                <li>2 ½ teaspoons bread machine yeast</li>
+            </ul> 
 
-    <p><div class="title">Steps 🐾</div></p>
-    <ol>
-        <li>Prepare dough: Place milk, eggs, margarine, flour, salt, white sugar, and yeast in the pan of a bread machine in the order recommended by the manufacturer. Select dough cycle; press Start.</li>
-        <li>When dough has doubled in size, turn it out onto a lightly floured surface. Cover it with a kitchen towel or plastic wrap and let it rest for 10 minutes.</li>
-        <li>Roll dough on a lightly floured surface to a 16x21-inch rectangle.</li>
-        <li>Prepare filling: Combine brown sugar and cinnamon in a small bowl. Spread softened butter over the dough, then sprinkle cinnamon-sugar mixture evenly over top.</li>
-        <li>Starting at the longer end, roll up the dough; cut into 12 rolls. Place rolls in a lightly greased 9x13-inch baking pan. Cover and let rise until nearly doubled, about 30 minutes.</li>
-        <li>Meanwhile, preheat the oven to 400 degrees F (200 degrees C).</li>
-        <li>Bake rolls in the preheated oven until golden brown, about 15 minutes.</li>
-        <li>While rolls are baking, prepare icing: Beat confectioners' sugar, butter, cream cheese, confectioners' sugar, vanilla, and salt until creamy.</li>
-        <li>Spread icing on warm rolls before serving.</li>
-    </ol>
+            <div class="head-text-2">Filling:</div>
+            <ul>
+                <li>1 cup brown sugar, packed</li>
+                <li>2 ½ tablespoons ground cinnamon</li>
+                <li>⅓ cup butter, softened</li>
+            </ul> 
+
+            <div class="head-text-2">Icing:</div>
+            <ul>
+                <li>1 ½ cups confectioners' sugar</li>
+                <li>¼ cup butter, softened</li>
+                <li>1 (3 ounce) package cream cheese, softened</li>
+                <li>½ teaspoon vanilla extract</li>
+                <li>⅛ teaspoon salt</li>
+            </ul> 
+        </div>
+
+        <div class="recipe-head-container head-text">Steps 🐾:</div>
+        <div class="recipe-container">
+            <ol>
+                <li>Prepare dough: Place milk, eggs, margarine, flour, salt, white sugar, and yeast in the pan of a bread machine in the order recommended by the manufacturer. Select dough cycle; press Start.</li>
+                <li>When dough has doubled in size, turn it out onto a lightly floured surface. Cover it with a kitchen towel or plastic wrap and let it rest for 10 minutes.</li>
+                <li>Roll dough on a lightly floured surface to a 16x21-inch rectangle.</li>
+                <li>Prepare filling: Combine brown sugar and cinnamon in a small bowl. Spread softened butter over the dough, then sprinkle cinnamon-sugar mixture evenly over top.</li>
+                <li>Starting at the longer end, roll up the dough; cut into 12 rolls. Place rolls in a lightly greased 9x13-inch baking pan. Cover and let rise until nearly doubled, about 30 minutes.</li>
+                <li>Meanwhile, preheat the oven to 400 degrees F (200 degrees C).</li>
+                <li>Bake rolls in the preheated oven until golden brown, about 15 minutes.</li>
+                <li>While rolls are baking, prepare icing: Beat confectioners' sugar, butter, cream cheese, confectioners' sugar, vanilla, and salt until creamy.</li>
+                <li>Spread icing on warm rolls before serving.</li>
+            </ol>
+        </div>
+    </div>
 
 </body>
 </html>
